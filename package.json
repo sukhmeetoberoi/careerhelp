@@ -1,0 +1,21 @@
+{
+  "name": "chatterbee",
+  "version": "1.0.0",
+  "description": "ChatterBee is an interactive web application that facilitates real-time communication among users. Leveraging Node.js, Express, Socket.io, and the Gemini API, it allows users to chat publicly with everyone or privately with specific individuals using unique room IDs. Additionally, users can interact with an AI to get solutions or answers to their queries.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Aman Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
